@@ -1,5 +1,5 @@
 import { Sequelize, DataTypes, Model } from 'sequelize'
-import { Application } from '@xrengine/server-core/declarations'
+import { Application } from '@etherealengine/server-core/declarations'
 import { InventoryItemInterface } from '../../interfaces/UserInventoryInterfaces'
 
 export default (app: Application): any => {

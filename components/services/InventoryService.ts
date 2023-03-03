@@ -1,7 +1,7 @@
 import { createState, useState } from '@speigg/hookstate'
-import { store, useDispatch } from '@xrengine/client-core/src/store'
-import { client } from '@xrengine/client-core/src/feathers'
-import { UserId } from '@xrengine/common/src/interfaces/UserId'
+import { store, useDispatch } from '@etherealengine/client-core/src/store'
+import { client } from '@etherealengine/client-core/src/feathers'
+import { UserId } from '@etherealengine/common/src/interfaces/UserId'
 
 const state = createState({
   data: [] as Array<any>,

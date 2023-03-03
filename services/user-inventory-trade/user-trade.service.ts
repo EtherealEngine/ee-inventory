@@ -1,10 +1,10 @@
-import { Application } from '@xrengine/server-core/declarations'
+import { Application } from '@etherealengine/server-core/declarations'
 import { UserTrade } from './user-trade.class'
 import createModel from './user-trade.model'
 import hooks from './user-trade.hooks'
 import userTradeDocs from './user-trade.docs'
 
-declare module '@xrengine/common/declarations' {
+declare module '@etherealengine/common/declarations' {
   interface ServiceTypes {
     'user-trade': UserTrade
   }

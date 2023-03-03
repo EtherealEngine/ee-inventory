@@ -2,7 +2,7 @@ import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import { ArrowBackIos, FilterList } from '@mui/icons-material'
 import styles from
-  '@xrengine/client-core/src/user/components/UserMenu/UserMenu.module.scss'
+  '@etherealengine/client-core/src/user/components/UserMenu/UserMenu.module.scss'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import {
@@ -20,7 +20,7 @@ import {
   Select,
   Stack
 } from '@mui/material'
-import { usePrevious } from '@xrengine/client-core/src/hooks/usePrevious'
+import { usePrevious } from '@etherealengine/client-core/src/hooks/usePrevious'
 import { InventoryService, useInventoryState } from '../services/InventoryService'
 
 const ITEM_HEIGHT = 48

@@ -1,5 +1,5 @@
 import { Service, SequelizeServiceOptions } from 'feathers-sequelize'
-import { Application } from '@xrengine/server-core/declarations'
+import { Application } from '@etherealengine/server-core/declarations'
 
 export class UserTrade extends Service {
   public docs: any

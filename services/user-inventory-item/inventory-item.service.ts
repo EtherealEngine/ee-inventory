@@ -1,10 +1,10 @@
-import { Application } from '@xrengine/server-core/declarations'
+import { Application } from '@etherealengine/server-core/declarations'
 import { InventoryItem } from './inventory-item.class'
 import createModel from './inventory-item.model'
 import hooks from './inventory-item.hooks'
 import inventoryItemDocs from './inventory-item.docs'
 
-declare module '@xrengine/common/declarations' {
+declare module '@etherealengine/common/declarations' {
   interface ServiceTypes {
     'inventory-item': InventoryItem
   }

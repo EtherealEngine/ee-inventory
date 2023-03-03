@@ -1,5 +1,5 @@
 import { Sequelize, DataTypes } from 'sequelize'
-import { Application } from '@xrengine/server-core/declarations'
+import { Application } from '@etherealengine/server-core/declarations'
 
 export default (app: Application): any => {
   const sequelizeClient: Sequelize = app.get('sequelizeClient')

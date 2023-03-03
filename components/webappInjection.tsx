@@ -1,5 +1,5 @@
 import { HotbarMenu, UserMenuPanels } from
-    '@xrengine/client-core/src/user/components/UserMenu'
+    '@etherealengine/client-core/src/user/components/UserMenu'
 import InventoryContents from './InventoryContents'
 import InventoryTrading from './InventoryTrading'
 import InventoryWallet from './InventoryWallet'

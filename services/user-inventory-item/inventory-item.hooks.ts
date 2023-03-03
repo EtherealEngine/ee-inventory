@@ -1,4 +1,4 @@
-import addAssociations from '@xrengine/server-core/src/hooks/add-associations'
+import addAssociations from '@etherealengine/server-core/src/hooks/add-associations'
 import { HookContext } from '@feathersjs/feathers'
 
 const logRequest = (options = {}) => {

@@ -1,6 +1,6 @@
 import { createState, useState } from '@speigg/hookstate'
-import { client } from '@xrengine/client-core/src/feathers'
-import { store, useDispatch } from '@xrengine/client-core/src/store'
+import { client } from '@etherealengine/client-core/src/feathers'
+import { store, useDispatch } from '@etherealengine/client-core/src/store'
 
 //State
 const state = createState({

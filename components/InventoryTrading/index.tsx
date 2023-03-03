@@ -2,14 +2,14 @@
 import React, { useEffect } from 'react'
 import InventoryTradingContents from './InventoryTradingContents'
 import styles from
-    '@xrengine/client-core/src/user/components/UserMenu/UserMenu.module.scss'
+    '@etherealengine/client-core/src/user/components/UserMenu/UserMenu.module.scss'
 import {
   TradingAction, TradingService, useTradingState
 } from '../services/TradingService'
-import { useDispatch } from '@xrengine/client-core/src/store'
+import { useDispatch } from '@etherealengine/client-core/src/store'
 import {
   AuthService, useAuthState
-} from '@xrengine/client-core/src/user/services/AuthService'
+} from '@etherealengine/client-core/src/user/services/AuthService'
 
 interface Props {
   changeActiveMenu?: any

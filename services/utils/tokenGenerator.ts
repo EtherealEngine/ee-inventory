@@ -1,5 +1,5 @@
 import axios from 'axios'
-import config from '@xrengine/server-core/src/appconfig'
+import config from '@etherealengine/server-core/src/appconfig'
 
 export async function tokenGenerator (): Promise<any> {
   return axios

@@ -1,8 +1,11 @@
 {
-  "name": "XREngine-Project-Inventory",
+  "name": "ee-inventory",
   "version": "0.0.0",
-  "description": "XREngine inventory plugin.",
+  "description": "Ethereal Engine Inventory Plugin.",
   "main": "",
+  "etherealEngine": {
+    "version": "0.0.0"
+  },
   "scripts": {
     "test": "mocha --config .mocharc.js"
   },

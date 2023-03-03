@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import WalletContents from './WalletContents'
-import styles from '@xrengine/client-core/src/user/components/UserMenu/UserMenu.module.scss'
+import styles from '@etherealengine/client-core/src/user/components/UserMenu/UserMenu.module.scss'
 import { useWalletState, WalletService } from '../services/WalletService'
-import { AuthService, useAuthState } from '@xrengine/client-core/src/user/services/AuthService'
+import { AuthService, useAuthState } from '@etherealengine/client-core/src/user/services/AuthService'
 
 interface Props {
   changeActiveMenu?: any

@@ -1,4 +1,4 @@
-import authenticate from '@xrengine/server-core/src/hooks/authenticate'
+import authenticate from '@etherealengine/server-core/src/hooks/authenticate'
 import { disallow } from 'feathers-hooks-common'
 
 export default {

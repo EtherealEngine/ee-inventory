@@ -1,5 +1,5 @@
 import { Service, SequelizeServiceOptions } from 'feathers-sequelize'
-import { Application } from '@xrengine/server-core/declarations'
+import { Application } from '@etherealengine/server-core/declarations'
 import { NullableId, Params } from '@feathersjs/feathers'
 import { tokenGenerator } from '../utils/tokenGenerator'
 import { userWalletSend } from '../utils/userWalletSend'
